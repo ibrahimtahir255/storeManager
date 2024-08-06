@@ -12,7 +12,8 @@ class StorePeople:
 class Cashier(StorePeople):
   def __init__(self, num, status=True):
     super().__init__(num)
-    self.status = status 
+    self.status = status
+    self.next_free_time = 0
     
     
 class Customer(StorePeople):

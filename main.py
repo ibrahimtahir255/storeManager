@@ -1,4 +1,4 @@
-from simulation import StoreSimulation  
+from simulation import *
 from my_priorityq import *
 
 def simulation():
